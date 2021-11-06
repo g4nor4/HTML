@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <!-- flex = tamanho -->
+    <head>
+        <meta charset="utf-8">
+        <title>dadandotudoerrado</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+        <style>
+            
+        header{
+            background-color: rgb(223, 179, 122);
+            flex: 1;
+            order: 1;
+            justify-content: center;
+            font-family: 'Italianno', cursive;
+           
+
+        }
+        #div2{
+            background-color: rgb(0, 191, 197);
+            flex:3;
+            order: 2;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            order: 3;
+            position:fixed;
+            bottom:0;
+            width: 100%;
+            font-family: 'Italianno', cursive;
+
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .container-linha{
+            display:flex;
+
+        }
+        .container-menu{
+            display:flex;
+            flex-direction: column;
+            align-items: stretch;
+
+            
+        }
+        .container-header{
+           display:flex;
+           flex-direction: row;
+           flex-flow: wrap;
+           align-content: space-between;
+           justify-content: flex-start;
+           gap: 10px;
+           
+        }
+        aside{
+            background-color: cornflowerblue;
+            flex: 2;
+            
+        }
+        section{
+            background-color: cornsilk;
+            flex: 9;
+            
+        }
+        body{
+            margin:0;
+            
+        }
+        #div3{
+            order: 2;
+            flex:1;
+
+        }
+        #div4{
+            flex:1;
+            order: 3;
+        }
+        #div5{
+            flex:1;
+            order:4;
+        }
+        #divespaco{
+            flex: 3;
+            order: 1;
+        }
+        #divtitulo{
+            flex:1;
+            align-content:flex-end
+        }
+        .miolo{
+            background-color: rgb(255, 217, 5);
+        }
+    </style>
+    </head>
+    <body>
+        <div class= "container">
+        <header>
+            <div #divtitulo><h1>Frozinha</h1></div>
+        <div  class= container-header>
+            <div id = "divespaco">_____________________________________</div>   
+            <div id= "div3" >Home</div>
+            <div id ="div4">Sobre</div>
+            <div id = "div5">Contatos</div>
+               
+           </div>
+        </header>
+        <div id= "div2" class= "container-linha">
+        <aside class= "container-menu">
+            <h3>Estrutura de uma frozinha</h3>
+              <p> miolo</p> 
+              <p>caule</p>
+              <p>petalas</p>
+              <p>entre outros</p>    
+
+        </aside>
+
+               <section>
+               <h2>Contéudo: frozinha</h2>
+               __________@@@@@@ <br>
+               _________@________@________@@@@@@ <br>
+               ________@___________@_____@_________@<br>
+               ________@_____________@@@__________@<br>
+               _________@___________________________@<br>
+               __________@_______<a class = miolo>@@@@@</a>___________@<br>
+               ___@@@@@@____<a class = miolo>@@@@@@@</a>_________@<br>
+               __@_____________<a class = miolo>@@@@@@@</a>_________@<br>
+               _@_____________<a class = miolo>@@@@@@@@</a>_______@<br>
+               _@_____________<a class = miolo>@@@@@@@@</a>_____@<br>
+               _@_____________<a class = miolo>@@@@@@@</a>______@<br>
+               ___@____________<a class = miolo>@@@@@</a>_________@<br>
+               _____@@@@@_______________________@<br>
+               _________@@_________________________@<br>
+               _________@___________@@___________@<br>
+               __________@________@@__@@@@@@@<br>
+               ___________@_____@@<br>
+               ____________@@@@_@<br>
+               ____________________@<br>
+               ____________________@<br>
+               ____________________@<br>
+               _____________________@<br>
+               ______________________@<br>
+               ______________________@____@@@<br>
+               ______________@@@@__@__@_____@<br>
+               _____________@_______@@@___@@<br>
+               ________________@@@____@__@@<br>
+               _______________________@<br>
+               ______________________@<br>
+               _____________________@<br>
+               ____________________@<br>
+                   
+               </section>
+        
+        </div>
+        <footer>
+            Rodapé
+        </footer>
+        </div>
+    </body>
+</html>

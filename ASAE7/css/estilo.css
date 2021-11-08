@@ -1,0 +1,31 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://image.freepik.com/free-vector/realistic-galaxy-background_23-2148991322.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.login-div{
+    max-width: 430px;
+    padding: 35px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ddd;
+}
+.logo{
+    
+    background-image: url("https://img.icons8.com/nolan/96/google-logo.png");
+    width:89px;
+    height:89px;
+    border-radius:50%;
+    margin: 0 auto;
+    
+}
+
